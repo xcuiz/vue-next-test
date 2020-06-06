@@ -1,0 +1,16 @@
+node_modules
+package-lock.json
+
+/dist
+/static/dll
+
+# log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ide
+.vscode
+.idea
+
+.DS_Store
