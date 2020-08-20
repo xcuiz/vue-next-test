@@ -37,7 +37,7 @@ export default {
   border-bottom: 1px solid #f1f1f1;
   padding: 20px 0;
   text-align: center;
-  transition: transform 200ms ease;
+  transition: transform 5s ease;
 }
 
 .list-item:last-child {

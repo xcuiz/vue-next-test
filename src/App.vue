@@ -1,12 +1,12 @@
 <template>
   <div>
     <h1>content</h1>
-    <!-- <router-view></router-view> -->
-    <!-- <IndexView/> -->
+    <h2>component outside Suspense</h2>
+    <IndexView />
+    <h2>component inside Suspense</h2>
     <Suspense>
       <template #default>
         <IndexView />
-        <!-- <router-view></router-view> -->
       </template>
       <template #fallback>
         加载中...
